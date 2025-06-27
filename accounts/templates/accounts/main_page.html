@@ -5,10 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome - Complaint Portal</title>
+    {% load static %}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
     <style>
         body {
-            background: url('/static/images/question_mark.jpeg') no-repeat right fixed;
+            background: url("{% static 'images/question_mark.jpeg' %}") no-repeat right fixed;
             background-size: 400px;
             margin: 0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -62,6 +63,7 @@
     <header style="font-size: 50px;">
         Company_Name.
     </header>
+
 
     <div class="welcome-container">
         <div class="welcome-card">

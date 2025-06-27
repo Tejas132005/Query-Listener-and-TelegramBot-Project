@@ -14,7 +14,6 @@ EMAIL_HOST_USER = config("EMAIL_HOST_USER")
 EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD")
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
-STATIC_URL = '/static/'
 
 DATABASES = {
     'default': {
@@ -68,8 +67,11 @@ MIDDLEWARE = [
 ]
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
 STATICFILES_DIRS = [
-    BASE_DIR/"static",
+    BASE_DIR / "static",
 ]
 
 DEBUG = False
