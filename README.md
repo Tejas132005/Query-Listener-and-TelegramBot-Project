@@ -12,6 +12,9 @@ Project Idea/Name : Complaint Portal
     ├── complaints/              # Manages tickets, dashboard, admin view
     ├── telegram_bot/            # Telegram integration
     ├── myproject/               # Project settings
+    ├── assets                   
+    ├── static                   # Local files
+    ├── staticfiles                
     ├── db.sqlite3               # Local DB
     ├── manage.py
     └── .env                     # Secure config (excluded from Git) [Have secret_key, email to send registration confirmation, password ]
