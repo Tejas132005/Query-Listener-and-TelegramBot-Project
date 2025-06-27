@@ -14,9 +14,36 @@ Project Idea/Name : Complaint Portal
   ├── manage.py
   └── .env                     # Secure config (excluded from Git) [Have secret_key, email to send registration confirmation, password ]
 
-  git clone https://github.com/yourusername/complaint-portal.git
 
-  Set up .env file
+⚙️ Setup Instructions
+
+    Clone the repository
+      git clone https://github.com/yourusername/complaint-portal.git
+      cd complaint-portal
+      
+    Create virtual environment
+      python -m venv env
+      source env/bin/activate  # or env\Scripts\activate on Windows
+    
+    Install dependencies
+      pip install -r requirements.txt
+      
+    Set up .env file
+    Create a .env file in the root:
+      SECRET_KEY=your_django_secret_key
+      EMAIL_HOST_USER=your_email@gmail.com
+      EMAIL_HOST_PASSWORD=your_app_password
+      
+    Run migrations
+      python manage.py makemigrations
+      python manage.py migrate
+      
+    Create superuser (admin)
+      python manage.py createsuperuser
+    
+    Run server
+      python manage.py runserver
+
 
 ** Create a .env file in the root:
     SECRET_KEY=your_django_secret_key
