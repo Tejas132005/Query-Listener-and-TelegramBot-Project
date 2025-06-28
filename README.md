@@ -115,11 +115,13 @@ Project Idea/Name : Complaint Portal
 
 
 📦 requirements.txt
-    Django>=4.2,<5.3
-    djangorestframework>=3.14
+
+    Django 5.3
+    djangorestframework > 3.14
     python-decouple>=3.8
 
 
 📝 License :
+
     This project is for educational/demo use.
-this is my readme.md
+    
