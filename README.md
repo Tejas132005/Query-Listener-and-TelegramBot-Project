@@ -23,7 +23,7 @@ Project Idea/Name : Complaint Portal
 ⚙️ Setup Instructions
 
     Clone the repository
-      git clone https://github.com/yourusername/complaint-portal.git
+      git clone https://github.com/yourusername/complaint-portal.git](https://github.com/Tejas132005/Query-Listener-and-TelegramBot-Project)
       cd complaint-portal
       
     Create virtual environment
